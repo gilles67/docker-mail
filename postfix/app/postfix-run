@@ -1,0 +1,3 @@
+#!/bin/bash
+postfix set-permissions
+postfix start-fg
