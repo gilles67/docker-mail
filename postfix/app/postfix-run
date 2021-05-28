@@ -1,3 +1,4 @@
 #!/bin/bash
+cp /etc/resolv.conf /var/spool/postfix/etc/resolv.conf
 postfix set-permissions
 postfix start-fg
